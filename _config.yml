@@ -81,9 +81,3 @@ plugins:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
 
-# Deployment
-deploy:
-  type: git
-  repo: https://github.com/[new]/[new].github.io.git
-  branch: master
-
